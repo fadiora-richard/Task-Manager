@@ -38,7 +38,7 @@ class Task //Class defining tasks
 };
 
 vector<Task> taskList; //To store the tasks in the program
-string filename = "C:\\Users\\richi\\Documents\\Personal Projects\\C++\\Learning C++\\Week 1\\Task Manager\\taskFile.txt";
+string filename = "taskFile.txt";
 
 void loadTasksFromFile() //Loads tasks from the file they're saved to to allow for viewing
 {
